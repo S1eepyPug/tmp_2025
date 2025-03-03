@@ -1,0 +1,28 @@
+{
+  "name": "tmp_2025_spring",
+  "version": "1.0.0",
+  "description": "Git setuped",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S1eepyPug/tmp_2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S1eepyPug/tmp_2025/issues"
+  },
+  "homepage": "https://github.com/S1eepyPug/tmp_2025#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
