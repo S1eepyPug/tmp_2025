@@ -1,9 +1,10 @@
 from fastapi import FastAPI, Depends
-from database import database
+from database import database, engine, metadata
 import crud
 import schemas
 
 app = FastAPI()
+metadata.create_all(bind=engine)
 
 @app.on_event("startup")
 async def startup():
